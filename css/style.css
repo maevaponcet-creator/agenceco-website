@@ -1,0 +1,56 @@
+body {
+    font-family: poppins;
+    margin:0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    padding : 10px 20px;
+    background-color:#F4F6F5 ;
+    color: white;
+}
+
+menu {
+  
+    justify-content: center;
+    list-style: none;
+display : flex
+}
+
+.menu { 
+    position: relative;
+    top: -55px;
+    right: -1050px;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.logo {
+    position: relative;
+    left: 20px;
+  color: #255919;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 100px;
+  z-index: -1;     
+}
